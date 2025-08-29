@@ -1,0 +1,61 @@
+# 💳 Credit Card Fraud Detection with Machine Learning
+
+This project focuses on detecting **fraudulent credit card transactions** using machine learning. Fraud detection is a critical task for financial institutions, and due to the **extreme class imbalance** in fraud vs. non-fraud transactions, it presents unique challenges.
+
+We’ll build a predictive model that classifies transactions as **fraudulent (1)** or **genuine (0)** using real-world data and techniques like **SMOTE** to handle class imbalance.
+
+---
+
+## 🎯 Objective
+
+- Identify fraudulent transactions using historical data
+- Handle highly imbalanced datasets with SMOTE
+- Train and evaluate classification models like **Logistic Regression**
+- Use metrics like **Precision, Recall, F1-Score**, and **Confusion Matrix** for evaluation
+
+---
+
+## 📊 Dataset Info
+
+We use the public dataset from Kaggle:  
+🔗 [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+**Dataset Details:**
+
+- Rows: 284,807 transactions
+- Features:
+  - `Time` — Time since first transaction
+  - `Amount` — Transaction amount
+  - `V1` to `V28` — Anonymized features from PCA
+  - `Class` — Target variable: 0 = normal, 1 = fraud
+- Fraudulent transactions: only 492 (~0.17%)
+
+---
+
+## 🧪 Techniques Used
+
+- **Data Normalization** (StandardScaler on `Amount`)
+- **Class Balancing** using **SMOTE (Synthetic Minority Oversampling)**
+- **Logistic Regression** model
+- **Evaluation** using:
+  - Confusion Matrix
+  - Precision, Recall, F1-Score
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3
+- Pandas, NumPy
+- scikit-learn
+- imbalanced-learn (for SMOTE)
+- Seaborn & Matplotlib (for plots)
+
+---
+
+## 🚀 How to Run the Project
+
+1. **Clone the repo** or download the files:
+   ```bash
+   git clone https://github.com/your-username/fraud-detection.git
+   cd fraud-detection
