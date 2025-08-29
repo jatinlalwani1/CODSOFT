@@ -1,0 +1,50 @@
+# 📈 Sales Prediction Using Python
+
+This project is a practical example of using machine learning to predict product sales based on advertising budget data. It explores how different advertising channels — **TV**, **Radio**, and **Newspaper** — impact sales, and builds a model to forecast sales performance.
+
+---
+
+## 🧠 Objective
+
+To forecast sales using historical advertising data and build a **Linear Regression** model that helps businesses make data-driven decisions about ad spending.
+
+---
+
+## 📊 Dataset Information
+
+The dataset used is `advertising.csv`, which contains the following columns:
+
+| Column     | Description                                  |
+|------------|----------------------------------------------|
+| TV         | Advertising budget on TV (in thousands)      |
+| Radio      | Advertising budget on Radio (in thousands)   |
+| Newspaper  | Advertising budget on Newspaper (in thousands)|
+| Sales      | Product sales (in thousands of units)        |
+
+---
+
+## 🛠 Technologies Used
+
+- **Python 3**
+- **Pandas** for data analysis
+- **Seaborn & Matplotlib** for data visualization
+- **Scikit-learn** for building and evaluating the regression model
+
+---
+
+## 🚀 Steps Covered
+
+1. Load and explore the dataset
+2. Visualize relationships between features and sales
+3. Perform correlation analysis
+4. Prepare features and labels
+5. Split data into training and testing sets
+6. Train a Linear Regression model
+7. Evaluate the model using R² and RMSE
+8. Visualize predictions vs actual sales
+
+---
+
+## 🔍 Example Results
+
+After training the model, we get output like:
